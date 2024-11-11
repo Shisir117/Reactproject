@@ -27,13 +27,13 @@ const Navigation = () => {
 
   return (
     <div className="sm:container py-5 px-2 sm:px-0 dark:bg-black dark:text-white z-30">
-      <div className="flex flex-wrap justify-between items-center container">
+      <div className="flex flex-wrap justify-between items-center sm:container">
         <div className="flex items-center md:gap-5">
           <Link to="/">
             <img
               src={Logo}
               alt="Logo"
-              className="sm:w-14 sm:h-14 w-11 h-11 border-gray-500 border rounded-full dark:border-gray-300 dark:border-2"
+              className="sm:w-14 sm:h-14 w-11 h-11 mx-2 border-gray-500 border rounded-full dark:border-gray-300 dark:border-2"
             />
           </Link>
 
